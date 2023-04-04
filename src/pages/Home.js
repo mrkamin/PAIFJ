@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <img className={style.headerpic} src={headerpic} width="320px"/>
+        <img className={style.headerpic} src={headerpic} width="320px" alt="headerpic"/>
         <p>
         شصت تن از خبرنگاران تبعید شده افغان در پاکستان عصر امروز کارت های عضویت شانرا از اتحادیه مشترک خبرنگاران بین المللی پاک - افغان در اداره پرس کلپ اسلام آباد اخذ نمودند.
 این اتحادیه یک هفته قبل فعالیتشرا آغاز نمود و تعدای اعضای آن اکنون به بیشتر از صد خبرنگار میرسد.
@@ -17,11 +17,9 @@ const Home = () => {
       <footer class="footer" id="footer">
         <div class="container">
           <div class="footer__container__parfoot">
-            <h3>Contact me</h3>
+            <h3>Contact Us</h3>
             <p>
-              If you have an application you are interested in developing, a
-              feature that you need built or a project that needs coding. I’d
-              love to help with it
+             if you have...........
             </p>
             <form action="https://formspree.io/f/maykokoe" method="post">
               <div class="form__control">
@@ -71,7 +69,7 @@ const Home = () => {
         </div>
       </footer>
       <div>
-        <span className={style.homeFooter}>Copywrite Mohammad Rafi Amin</span>
+        <span className={style.homeFooter}>PAIFJ</span>
       </div>
     </div>
     </div>
