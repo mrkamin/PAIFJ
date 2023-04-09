@@ -1,5 +1,5 @@
 import React from 'react';
-import paifjlogo from '../assets/paifjlogo.jpeg';
+import paifjlogo from './assets/paifjlogo.jpeg';
 import style from '../style/Navbar.module.css';
 
 const Navbar = () => {

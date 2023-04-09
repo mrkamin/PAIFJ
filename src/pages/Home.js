@@ -1,94 +1,13 @@
 import React from 'react';
 import style from '../style/Home.module.css';
-import headerpic from '../assets/headerpic.jpeg';
-import HeroSlider, {Slide} from 'hero-slider';
-import slide1 from '../assets/slid1.jpeg';
-import slide2 from '../assets/slid2.jpeg';
-import slide3 from '../assets/slid3.jpeg';
-import slide4 from '../assets/slid4.jpeg';
-
+import Slider from '../components/Slider/Slider';
 
 
 const Home = () => {
   return (
     <div>
       <div>
-        <HeroSlider width={"320px"} height= "50vh"
-        slidingAnimation="left_to_right"
-        orientation="horizontal"
-        initialSlide={1}
-        onBeforeChange={(previousSlide, nextSlide) => console.log("onBeforeChange", previousSlide, nextSlide)}
-        onChange={nextSlide => console.log("onChange", nextSlide)}
-        onAfterChange={nextSlide => console.log("onAfterChange")}
-        style={
-        {backgroundColor: "rgba(0,0,0,0.33)"}
-        }settings={
-          {slidingDuration: 250,
-          slidingDelay: 100,
-        shouldAutoplay: true,
-      autoplayDuration: 5000,
-    }
-        }
-
-
-        >
-          <Slide 
-            background={{ 
-              backgroundImageSrc: headerpic,
-              backgroundAttachment: "fixed",
-              
-            }}
-            style={{
-              width:"320px",
-              height: "50vh"
-            }}
-           
-          />
-          <Slide 
-            background={{ 
-              backgroundImageSrc: slide1,
-              backgroundAttachment: "fixed"
-            }}
-            style={{
-              width:"320px",
-              height: "50vh"
-            }}
-           
-          />
-          <Slide 
-            background={{
-              backgroundImageSrc: slide2,
-              backgroundAttachment: "fixed"
-            }}
-             style={{
-              width:"320px",
-              height: "50vh"
-            }}
-           
-          />
-          <Slide 
-            background={{
-              backgroundImageSrc: slide3,
-              backgroundAttachment: "fixed"
-            }}
-             style={{
-              width:"320px",
-              height: "50vh"
-            }}
-           
-          />
-          <Slide 
-            background={{
-              backgroundImageSrc: slide4,
-              backgroundAttachment: "fixed"
-            }}
-             style={{
-              width:"320px",
-              height: "50vh"
-            }}
-           
-          />
-        </HeroSlider>
+        <Slider />
         <p>Press Release PAIFJ <br>
         </br>
 April 05, 2023<br></br>
