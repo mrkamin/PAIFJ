@@ -1,4 +1,4 @@
-/* * {
+* {
     box-sizing: border-box;
     margin: 0;
   }
@@ -131,7 +131,7 @@
   
   .play-pause {
     color: black;
-  } */
+  } 
 
   @media (max-width: 768px) {
     

@@ -8,7 +8,7 @@ export default function SliderContent({ activeIndex, DataSlider }) {
                 <div key={index}
                 className={index === activeIndex ? "slides active" : "inactive"}
                 >
-                    <img className="slide-image" src={slide.urls}/>
+                    <img className="slide-image" src={slide.urls} alt="slide"/>
                     <p className="slide-title">{slide.title}</p>
           <p className="slide-text">{slide.description}</p>
                 </div>
