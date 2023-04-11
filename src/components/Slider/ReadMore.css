@@ -1,0 +1,45 @@
+:root {
+    --pink-light: #fd5293;
+    --pink: #ed4d8b;
+    --pink-medium: #d1447a;
+    --pink-dark: #9f365f;
+    --contrast: #fbd918;
+    --white: #fff8fc;
+    --black: #2b2827;
+    --DARK: #303050;
+    --FF: "Lato", sans-serif;
+  --FF-HEADINGS: "Lato", sans-serif;
+  --FS: clamp(1rem, 2.2vh, 1.5rem);
+  --SHADOW: 3px 3px 3px 2px gray;
+  }
+
+.card {
+display: flex;
+flex-direction: column;
+ padding: 10px; 
+ color: var(--DARK);  
+ background-color: var(--white);
+ margin: 10px;
+ border: none;
+ border-radius: 0.5rem;
+ gap: 10px;
+ font-family: var(--FF);
+ box-shadow: var(--SHADOW);
+ text-align: justify;
+ 
+}
+
+.shomorbtn {
+    width: 100px;
+    border: none;
+    height: 25px;
+    color: var(--DARK);
+    font-weight: 550;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.shomorbtn:hover {
+    background-color: var(--pink);
+    color: white;
+}
