@@ -28,6 +28,8 @@
     margin: auto;
     overflow: hidden;
     padding: 10px;
+    border: none;
+    border-radius: 0.3rem;
    
   }
   
@@ -45,6 +47,8 @@
     height: var(--heights);
     width: var(--widths);
     position: relative;
+    border: none;
+    border-radius: 0.3rem;
   }
   
   .slide-image {
