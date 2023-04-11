@@ -18,7 +18,7 @@ display: flex;
 flex-direction: column;
  padding: 10px; 
  color: var(--DARK);  
- background-color: rgba(255, 255, 255, 0.603);
+ background-color: rgba(255, 255, 255, 0.514);
  margin: 10px;
  border: none;
  border-radius: 0.5rem;
