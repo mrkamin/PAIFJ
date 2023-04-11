@@ -13,8 +13,8 @@ function ReadMore() {
       <h3>Press Release PAIFJ</h3> 
         <h4>
 April 05, 2023
-</h4><br></br><p>
-ISLAMABAD: Pakistan-Afghan International Forum of Journalists (PAIFJ) organized a very prestigious event regarding the distribution of membership cards at the National Press Club Islamabad.
+</h4><p>
+ISLAMABAD: <br></br>Pakistan-Afghan International Forum of Journalists (PAIFJ) organized a very prestigious event regarding the distribution of membership cards at the National Press Club Islamabad.
 In which President PFUJ Afzal Butt, 
 President National Press Club Anwar Raza, Secretary Khalil Raja, Finance Secretary Nayyar Ali, President RIUJ Abid Abbasi, Representative MICT Amjad Qamar, Chairman PAIFJ  Qamar Yousafzai, President Shah Rukh Tahiri, Spokesman Hashmat vajdani, Press Secretary Saleem Bukhari, Senior Afghan Analyst Jamal Kotwal, Khalida Tahseen and other Afghan and Pakistani journalists participated in large numbers. 
       </p>
