@@ -10,10 +10,18 @@
   --black: #2b2827;
 }
 
-.homeFooter {
+.homeContact {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 40px;
+}
+
+.homeContaineritems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
