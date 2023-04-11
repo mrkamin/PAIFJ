@@ -15,11 +15,12 @@ function ReadMore() {
 April 05, 2023
 </h4><br></br><p>
 ISLAMABAD: Pakistan-Afghan International Forum of Journalists (PAIFJ) organized a very prestigious event regarding the distribution of membership cards at the National Press Club Islamabad.
+In which President PFUJ Afzal Butt, 
+President National Press Club Anwar Raza, Secretary Khalil Raja, Finance Secretary Nayyar Ali, President RIUJ Abid Abbasi, Representative MICT Amjad Qamar, Chairman PAIFJ  Qamar Yousafzai, President Shah Rukh Tahiri, Spokesman Hashmat vajdani, Press Secretary Saleem Bukhari, Senior Afghan Analyst Jamal Kotwal, Khalida Tahseen and other Afghan and Pakistani journalists participated in large numbers. 
       </p>
       {isShowMore && (
         <p>
-            In which President PFUJ Afzal Butt, 
-President National Press Club Anwar Raza, Secretary Khalil Raja, Finance Secretary Nayyar Ali, President RIUJ Abid Abbasi, Representative MICT Amjad Qamar, Chairman PAIFJ  Qamar Yousafzai, President Shah Rukh Tahiri, Spokesman Hashmat vajdani, Press Secretary Saleem Bukhari, Senior Afghan Analyst Jamal Kotwal, Khalida Tahseen and other Afghan and Pakistani journalists participated in large numbers. On this occasion, Afzal Butt distributed organizational cards among more than 60 members of the forum and congratulated them.
+            On this occasion, Afzal Butt distributed organizational cards among more than 60 members of the forum and congratulated them.
 
 Afzal Butt said in his speech that I consider the establishment of Pak-Afghan International Forum of Journalists as a welcome initiative, the solidarity of journalists of the two fraternal countries is an excellent example for the world. We are well aware of the suffering and difficulties faced by Afghan journalists inside Pakistan and can understand this pain. We will try our best to devise a method to relieve our brothers from these sufferings through this joint forum. He further said that Afghan journalists should not consider themselves alone, a large group of Pakistani journalists are with them who will stand by their side in all the challenges they face. 
 
