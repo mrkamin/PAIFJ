@@ -15,12 +15,16 @@
 
 .navBarContainer {
   padding: 10px;
+  border: none;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.473);
 }
 
 .navBarLogo {
   width: 10%;
   border: none;
-  border-radius: 50%;
+  border: none;
+  border-radius: 0.3rem;
   cursor: pointer;
 }
 

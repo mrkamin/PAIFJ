@@ -1,11 +1,11 @@
 import React from 'react';
-import style from '../style/Home.module.css';
 import Slider from '../components/Slider/Slider';
 import ReadMore from '../components/Slider/ReadMore';
+import style from '../style/Home.module.css';
 
 const Home = () => {
   return (
-    <div>
+    <div className={style.homeSection}>
       <div>
         <Slider />
         <ReadMore />
@@ -17,47 +17,41 @@ const Home = () => {
           <div className={style.homeContaineritems}>
             <h3>Contact Us</h3>
             <p>
-             if you have...........
+             if you have any question you can Contact us here...........
             </p>
-            <form action="https://formspree.io/f/maykokoe" method="post">
-              <div class="form__control">
+            <form action="https://formspree.io/f/maykokoe" method="post" className={style.homeContaineritemsitemform}>
+              <div className={style.homeContaineritemsitem}>
                 <input
                   type="text"
                   placeholder="Name"
-                  class="name"
+                  className={style.homeContaineritemsiteminput}
                   id="name"
                   maxlength="30"
                   required
                   name="name"
                 />
-              </div>
-              <div class="form__control">
                 <input
                   type="email"
                   placeholder="name@example.com"
-                  class="email"
+                  className={style.homeContaineritemsiteminput}
                   id="email"
                   name="email"
                   required
                 />
-              </div>
-              <div class="form__control">
                 <textarea
                   cols="30"
                   rows="10"
-                  class="textarea"
+                  className={style.homeContaineritemsitemtexarea}
                   id="textarea"
                   placeholder="Write your message here"
                   maxlength="500"
                   name="textarea"
                   required
                 ></textarea>
-              </div>
-              <div class="form__control">
                 <input
                   type="submit"
                   placeholder=""
-                  class="submit"
+                  className={style.homeContaineritemsiteminputbtn}
                   id="submit"
                   value="Get in touch"
                 />
@@ -66,9 +60,6 @@ const Home = () => {
           </div>
         </div>
       </footer>
-      <div>
-        <span className={style.homeFooter}>PAIFJ</span>
-      </div>
     </div>
     </div>
   );

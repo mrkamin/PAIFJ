@@ -25,7 +25,7 @@
     height: var(--heights);
     width: var(--widths);
     position: relative;
-    margin: auto;
+    padding-top: 50px;
     overflow: hidden;
     padding: 10px;
     border: none;
