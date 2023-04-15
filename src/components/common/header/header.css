@@ -8,6 +8,8 @@
   header {
     background-color: #000;
     color: #fff;
+    align-items: center;
+    text-align: center;
   }
   header li {
     margin-right: 30px;
@@ -26,6 +28,12 @@
     color: #fff;
     display: none;
     border: none;
+  }
+  .makeDonation {
+    background-color: crimson;
+    border: none;
+    border-radius: 2rem;
+    padding: 3px 10px;
   }
   @media screen and (max-width: 768px) {
     .head .ad {

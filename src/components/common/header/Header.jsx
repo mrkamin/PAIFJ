@@ -17,7 +17,7 @@ const Header = () => {
                 <li><Link to='/'>OUR ACTIONS</Link></li>
                 <li><Link to='/'>GET INVOLVED</Link></li>
                 <li><Link to='/'>ABOUT US</Link></li>
-                <li><Link to='/'>MAKE A DONATION</Link></li>
+                <li className='makeDonation'><Link to='/'>MAKE A DONATION</Link></li>
             </ul>
             <button className='barIcon' onClick={() => setNavbar(!navbar)}>
                  {navbar ? <i className='fa fa-times'></i> : <i className='fa fa-bars'></i>}
